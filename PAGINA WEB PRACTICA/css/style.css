@@ -1,0 +1,135 @@
+.Baner{
+    width: 100%; height: 150px; background-color: rgb(250, 250, 250); text-align: center;
+}
+.Izquierda {
+  width: 50%; height: auto; background-color: rgb(96, 146, 148); float: left;text-align: center;
+}
+.Derecha {
+    width: 50%; height: auto; background-color: cadetblue; float: right; text-align: center;
+  }
+ .my-alert{
+    color: darkred;
+    border: 1px solid crimson;
+    border-radius: 4px ;
+ }
+ .mostrar{
+    width: 215px;
+    height: 45px;
+ }
+ .navegacion{
+    width: 100%; height: 150px; background-color: rgb(155, 152, 152); 
+     color: rgb(22, 21, 21); width: 100%; margin: 0 auto;
+}
+
+nav{
+    float: right;
+}
+nav ul li{
+list-style: none;
+margin-left: 75px;
+padding: 25px 0;
+float: left;
+position: relative;
+
+}
+nav ul li a {
+text-decoration: none;
+color: rgb(71, 58, 40);
+font-weight: bold;
+
+}
+nav ul li a::before{
+display: block;
+content: '';
+width: 100%;
+background: #8a4e78;
+height: 5px;
+top: 0;
+position: absolute;
+
+}
+h1{
+    color: rgb(197, 68, 17);
+}
+.IMG{
+    border-color: crimson;
+    border-style: outset;
+    border-radius: 10px;
+}
+.parrafo{
+    text-align: left;
+    border-style: inherit;
+}
+.js{
+    color: crimson;
+}
+#fx{
+    text-align: center;
+}
+
+#ol1{
+    text-decoration: #784ab4;
+    color: chartreuse;
+}
+#ol2{
+    text-decoration: #784ab4;
+    color: chartreuse;
+}
+#logo{
+width: 150px; height: 140px; 
+border-style:unset;
+ 
+
+}
+.formulario{
+  text-align: center;
+  float: left;
+  background-color: rgb(129, 133, 128);
+  width: 100%;
+  
+}
+#fm{
+    color:rgb(15, 15, 15);
+    border: 5px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style:unset;
+border-style: solid;
+font-size: x-large;
+}
+#imagen{
+width: 100%;
+background-color: rgb(248, 248, 246);
+text-decoration: solid; color: blue;
+font-size: x-large;
+font-style: oblique;
+align-content: center;
+}
+#im1{
+    float: left;
+}
+#im2{
+    float:right;
+}
+#im3{
+    float:inherit;
+   
+}
+form{
+    text-align: center;
+}
+button{
+    width: 80px;
+    height: 25px;
+    align-items: center;
+}
+#inicio{
+    text-align: center;
+}
+#guitarra{
+font-size: medium;
+color: cornsilk;
+}
+#iphone{
+font-size: medium;
+color: cyan;
+}
